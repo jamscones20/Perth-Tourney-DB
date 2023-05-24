@@ -1,0 +1,229 @@
+/* Author: Sam Jones 
+*/
+html {
+    background-color: #1a0000;
+    z-index: -999;
+    color: #ffffff;
+}
+
+header {
+    background-color:#b30000;
+}
+header img {
+    position: relative;
+    z-index: 2;
+}
+
+#wrapper {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* Site Navigation
+*/
+#webnav {
+    display: flex;
+    position: absolute;
+    top: 0px; left: 0px;
+    width: 100%; 
+    padding-top: 10px;
+    z-index: 2;
+}
+#webnav a {
+    color:white;
+    text-decoration: none;
+    padding: 10px;
+    border-style: double;
+    }
+#webnav div2 {
+    padding-left: 500px;
+}
+#hubnav {
+    display: flex;
+    position: absolute;
+    top: 0px; left: 0px;
+    width: 100%; 
+    padding-top: 55px;
+    z-index: 1;
+    color: black;
+}
+#hubnav a {
+    display: inline-block;
+    width: 170px;
+    height: 90px;
+}
+nav ul {
+    padding-left: 200px;
+    list-style: none;
+}
+nav li {
+    display: inline;
+    margin: 10px;
+}
+
+nav a:hover {
+    background-color: #800000;
+}
+
+/* Tourney Wins
+*/
+#tourney_wins {
+    background-color: #b30000;
+    text-align: center;
+}
+#tourney_wins section {
+    display: flex;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    justify-content: space-between;
+}
+#tourne_wins h2 {
+    font-weight: bold;
+}
+#tourney_wins p {
+    padding-top: 50px;
+    font-size: 1.1em;
+}
+#tourney_wins img {
+    background-color: #800000;
+    padding: 10px 10px 10px 10px;
+}
+
+/* Game Updates
+*/
+#updates {
+    background-color: #b30000;
+}
+#updates h2 {
+    text-align: center
+}
+#updates section {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+
+/* Game Updates GameHub
+*/
+#hubupdates {
+    background-color: #b30000;
+}
+#hubupdates h2 {
+    text-align: center;
+}
+#hubupdates section {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+#hubupdates ul {
+    border-style: double
+}
+#hubupdates li {
+    font-size: 1.5em;
+    list-style: none;
+    margin: 30px;
+    text-align: left;
+}
+#hubupdates img {
+    background-color: #800000;
+    padding: 10px 10px 10px 10px;
+}
+/* Hub Tourney 
+*/
+#hubtourney {
+    background-color: #b30000;
+}
+#hubtourney h2 {
+    padding-left: 30px;
+    font-size: 1.4em;
+}
+#hubtourney p {
+    padding-left: 30px;;
+    font-size: 1.2em;
+}
+
+/* Hub Tourney Vods
+*/
+#hubtourneyvod {
+    text-align: center;
+    background-color: #b30000;
+}
+#hubtourneyvod iframe {
+    background-color: #800000;
+    padding: 10px 10px 10px 10px;
+}
+
+
+
+/* Tourney Vods
+*/
+#vods {
+    text-align: center;
+}
+#vods section {
+    background-color: #b30000;
+}
+#vods iframe {
+    justify-content: space-around;
+}
+/* Dust
+*/
+#dust {
+    margin-top: 20px;
+    background-color: #b30000;
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+#dust h1 {
+}
+#dust div {
+    text-align: center;
+}
+/* Search Tourney
+*/
+#searchfeatures {
+    margin-top: 20px;
+    background-color: #b30000;
+    padding: 20px 20px 20px 20px;
+}
+#searchfeatures section {
+    display: flex;
+    background-color: #800000;
+    justify-content: space-between;
+}
+#searchfeatures h2 {
+    
+}
+
+/* Create Tourney
+*/
+#createfeatures {
+    margin-top: 20px;
+    background-color: #b30000;
+    padding: 20px 20px 20px 20px;
+}
+#createfeatures section{
+    display: flex;
+    background-color: #800000;
+    justify-content: space-between;
+    padding: 5px;
+}
+#createfeatures p {
+    padding-top: 7px;
+}
+
+/* Footer
+*/
+footer {
+    background-color: #b30000;
+}
+footer ul {
+    display: flex;
+    justify-content: space-between;
+}
+footer li {
+    list-style: none;
+}
